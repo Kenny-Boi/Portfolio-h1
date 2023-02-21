@@ -1,0 +1,287 @@
+body{
+	font-family: 'Anek Latin', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #F7EFDD;
+	margin: 0;
+	margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+body, html{
+	margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* nav */
+
+.navstyle{
+	background: #E5C161;
+	display: flex;
+	align-items: center;
+	margin-bottom: -20px;
+	margin-top: -15px;
+	
+}
+
+.logo{
+	width: 100%;
+	padding: 15px;	
+}
+
+.logo-nav{
+	width: 9%;
+
+}
+
+h1{
+	font-size: 4.1em;
+	font-weight: 900;
+	color: #F7EFDD;
+	font-family: 'Anek Latin', sans-serif;
+
+}
+
+.img-padding75top{
+		width: 100%;
+	height: auto;
+
+}
+
+.slim-text{
+		font-weight: 100;
+		color: #F7EFDD;
+		font-family: 'Anek Latin', sans-serif;
+
+}
+
+
+
+
+
+
+.opgave{
+	min-height: 500px;
+	height: auto;
+}
+
+.container{
+	width: 1170px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-md-12{
+	width: 100%;
+}
+
+.streg > span {
+    position: relative;
+    display: inline-block;
+}
+.streg{
+	display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.streg > span:before {
+    right: 100%;
+    margin-right: 25px;
+}
+.streg > span:after {
+    left: 100%;
+    margin-left: 25px;
+}
+.streg > span:before, .streg > span:after {
+    content: "";
+    position: absolute;
+    top: 55%;
+    width: 9999px;
+    height: 5px;
+    background: black;
+}
+.orange-text{
+	color: #3A636D
+}
+
+span{
+	margin-bottom: -20px;
+	margin-left: 22%;
+	margin-right:25%; 
+		
+}
+h3{
+	font-size: 19px;
+	text-align: center;
+}
+h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  	font-family:  'Anek Latin', sans-serif;
+    font-weight:bold;
+    line-height: 1.1;
+	color: black;
+}
+h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h3{
+	
+	font-family:  'Anek Latin', sans-serif;
+    font-weight:bold;
+    color: #000!important;
+    text-align: center;
+    padding-top: 0px!important;
+    margin-top: 0px!important;
+    margin-bottom: 40px!important;
+}
+
+h2, .h2{
+	font-size: 80px;
+}
+
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+	float: left;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.skole-header{
+	font-size: 1.4em;
+	text-align: center;
+	
+}
+
+p.skole-header {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+	font-size: 2.2em;
+	color: black;
+}
+
+
+.download-beskrivelse{
+    text-decoration: none;
+    background-color: #DA8571;
+    border: solid 1px #DA8571;
+    padding-top: 10px!important;
+    padding-bottom: 10px;
+    width: 40%;
+    margin-top: 25px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+}
+.download-beskrivelse a {
+    text-decoration: none;
+    color: white!important;
+}
+* {
+    box-sizing: border-box;
+}
+.col-md-6{
+	width: 50%;
+}
+.skole-projekt {
+    padding: 15px;
+    height: auto;
+    background-color: #DA8571;
+    margin: 0 0 30px;
+}
+.red-bgg{
+	background-color: #DA8571;
+}
+.blue-bgg{
+	background-color: #3A636D;
+}
+
+.yellow-bgg{
+	background-color: #E5C161;
+}
+
+.skole-tekst {
+    position: relative;
+}
+
+.img{
+	width: 100%;
+	height: auto;
+}
+
+.skole-projekt h6 {
+    text-transform: uppercase;
+    color: white!important;
+    font-size: 1.8em!important;
+}
+.box-2 {
+    top: 26%;
+}
+.box-2 {
+    z-index: 10;
+    padding: 20px 0px;
+    display: block;
+    position: absolute;
+	top: 0%;
+    background-color: none;
+    width: 100%;
+    text-align: center;
+    transition: opacity .4s ease-in-out;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+	font-size: 35px;
+	color:#F7EFDD; 
+}
+
+.slim-text-projekt{
+		font-weight: 100;
+		color: #F7EFDD;
+		font-family: 'Anek Latin', sans-serif;
+	font-size: 35px;
+}
+
+.download-link {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p{
+	
+	margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+	font-size: 1.2em;
+	color: black;
+}
+
+/*footer*/
+.Sociel-media-logo{
+	width: 29%;
+	padding: 15px;	
+}
